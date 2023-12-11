@@ -4,17 +4,15 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
-  git,
+  nextjs,
+  // git,
   figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -26,7 +24,7 @@ import {
 } from "../assets";
 
 
- 
+
 
 const services = [
   {
@@ -61,16 +59,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -85,20 +75,20 @@ const technologies = [
     icon: mongodb,
   },
   {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
     name: "Three JS",
     icon: threejs,
   },
-  {
-    name: "git",
-    icon: git,
-  },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
