@@ -20,7 +20,7 @@ const ExperienceCard = ({ experience }) => (
     <div className="flex justify-center items-center w-full h-full">
         <img
           src={experience.icon}
-          alt={experience.company_name}
+          alt="null"
           className="w-[60%] h-[60%] object-contain"
         />
       </div>
@@ -33,7 +33,7 @@ const ExperienceCard = ({ experience }) => (
         style={{ margin: 0 }}
       >
 
-        {experience.company_name}
+        {/* {experience.company_name} */}
       </p>
     </div>
 
@@ -55,7 +55,7 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText}`}>What I have done so far</p>
-        <h2 className={`${styles.sectionHeadText}`}>Work</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Work skills</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">

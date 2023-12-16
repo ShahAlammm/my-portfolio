@@ -29,6 +29,24 @@ const ServiceCard = ({ index, title, icon }) => {
 };
 
 const About = () => {
+
+  // const handleDownload = () => {
+  //   // Replace 'YOUR_GOOGLE_DRIVE_LINK' with the actual shareable link of your resume
+  //   const googleDriveLink = 'https://drive.google.com/drive/folders/1BsxE1QggKs6y_PJssnAJov0ReRWFcZSn';
+  //   // Open a new window with the Google Drive link
+  //   window.open(googleDriveLink, '_blank');
+  // };
+
+  const handleDownload = () => {
+    const resumeUrl = '../../public/Q-A.pdf';
+
+    const link = document.createElement('a');
+    link.href = resumeUrl;
+    link.download = 'your_resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -50,6 +68,7 @@ const About = () => {
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
+         <button onClick={handleDownload} className="btn btn-lg bg-[#915eff] text-white mt-10">Resume</button>
       </div>
     </>
   );

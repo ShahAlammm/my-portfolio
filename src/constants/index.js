@@ -13,10 +13,10 @@ import {
   nextjs,
   // git,
   figma,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  // meta,
+  // starbucks,
+  // tesla,
+  // shopify,
   carrent,
   jobit,
   tripguide,
@@ -32,7 +32,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React.js Developer",
     icon: mobile,
   },
   {
@@ -40,7 +40,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Next.js Developer",
     icon: creator,
   },
 ];
@@ -94,55 +94,47 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "React.js",
+    // company_name: "Starbucks",
+    icon: reactjs,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "My favorite one",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a dynamic e-commerce platform using React.js, featuring a modularized architecture with reusable components. Implemented smooth user interactions and real-time updates, enhancing the overall user experience.",
+      "Demonstrated expertise in React's component-based architecture, breaking down complex UIs into manageable, reusable components. Leveraged component lifecycle methods and hooks for efficient state management, resulting in a scalable and maintainable codebase.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Tailwind CSS",
+    // company_name: "Tesla",
+    icon: tailwind,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Mostly I use it",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Employed Tailwind CSS to swiftly implement a responsive resume layout, leveraging its utility-first approach for efficient design.",
+      "Ensured code consistency and maintainability by utilizing Tailwind's predefined utility classes, promoting a unified design language throughout the project.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "MongoDB",
+    // company_name: "Shopify",
+    icon: mongodb,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Backend that I know",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Proficient in MongoDB for seamless data management. Implemented robust database structures and optimized queries to enhance performance in web applications.",
+      "Designed and implemented scalable MongoDB databases, ensuring efficient handling of data growth. Utilized MongoDB's flexible schema to adapt to evolving project requirements.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Next.js",
+    // company_name: "Meta",
+    icon: nextjs,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Now I exploring it",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Explored Next.js to implement server-side rendering, enhancing application performance and SEO. Leveraged the framework's capabilities to create fast-loading, dynamic React applications.",
+      "Developed seamless client-side navigation with Next.js routing. Integrated APIs effortlessly, capitalizing on the framework's built-in features for streamlined data fetching and serverless functions.",
     ],
   },
 ];
@@ -176,9 +168,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Express Delivery",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, book, and manage parcel from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
         name: "react",
@@ -194,49 +186,52 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ShahAlammm/parcel-management-app",
+    source_live_link: "https://parcel-management-app-c9005.web.app/",
   },
   {
-    name: "Job IT",
+    name: "Event Management",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for event openings, view estimated price ranges for positions, and locate available center based on their current location.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ShahAlammm/event-management?tab=readme-ov-file",
+    source_live_link: "https://teeny-tiny-desire.surge.sh/",
   },
   {
-    name: "Trip Guide",
+    name: "Brand Shop",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A shop website where some one can bay his devises. Enjoy there wonder full moment and experience there uses. ",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ShahAlammm/brand-shop-client?tab=readme-ov-file",
+    source_live_link: "https://brash-muscle.surge.sh/",
   },
 ];
 
